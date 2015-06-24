@@ -5,21 +5,31 @@
 <head>
   <title>GENI Login</title>
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-5" />
-  <meta name="viewport" content="initial-scale=1.0, user-scalable=0, width=device-width, height=device-height"/>;
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=0, width=device-width, height=device-height"/>
   <link rel="stylesheet" type="text/css" href="idpselect.css" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|PT+Serif:400,400italic|Droid+Sans+Mono" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
 
 </head>
 
 <body>
   
   <div id="loginArea">
-    <img src='geni.png' alt='Geni logo'/>
+    <img src='logo.png' alt='Geni logo'/>
     <div id="idpSelect"></div>
   </div>
-
+  <div id="footer">
+    <p>Can't login via any of the above organizations?<br>
+    <a href="https://shib-idp.geni.net/geni/request.html">Request a login here</a></p>
+    <hr>
+    <p style="font-size: .8em;">
+    GENI Portal Version 2.34<br>
+    Copyright &copy; 2015 Raytheon BBN Technologies<br>
+    All Rights Reserved - NSF Award CNS-0714770<br>
+    <a href="http://www.geni.net/">GENI</a> is sponsored by the
+    <a href="http://www.nsf.gov/"><img src="nsf1.gif" alt="NSF Logo" height="16" width="16"/> National Science Foundation</a></p>
+  </div>
   <script src="idpselect_config.js" type="text/javascript" language="javascript"></script>
-  <script src="nonminimised/idpselect_languages.js" type="text/javascript" language="javascript"></script>
+  <script src="idpselect_languages.js" type="text/javascript" language="javascript"></script>
   <script src="idpselect.min.js" type="text/javascript" language="javascript"></script>
 
 
@@ -41,6 +51,8 @@
     Your Browser does not support javascript. Please use 
     <a href="http://federation.org/DS/DS?entityID=https%3A%2F%2FyourentityId.edu.edu%2Fshibboleth&return=https%3A%2F%2Fyourreturn.edu%2FShibboleth.sso%2FDS%3FSAMLDS%3D1%26target%3Dhttps%3A%2F%2Fyourreturn.edu%2F">this link</a>.
   </noscript>
+
+
 
 </body>
 </html>
