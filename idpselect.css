@@ -5,21 +5,21 @@ body {
 }
     
 #loginArea {
-    width: 30%;
-    min-width: 350px;
-    max-width: 500px;
+    width: 35%;
+    min-width: 400px;
+    max-width: 550px;
     border: 8px #5F584E solid;
-    margin: 20px auto;
+    margin: 10px auto;
     border-radius: 8px;
     box-shadow: 0.2em 0.2em 0.4em #dddddd;
-    padding: 10px 20px;
+    padding: 5px 20px;
     background-color: #ffffff;
 }    
 
 #footer {
-    width: 30%;
-    min-width: 366px;
-    max-width: 516px;
+    width: 35%;
+    min-width: 416px;
+    max-width: 566px;
     color: #ffffff;
     border-radius: 8px;
     padding: 10px 20px;

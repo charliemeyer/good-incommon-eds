@@ -14,7 +14,7 @@ function IdPSelectUIParms(){
                                      // Approaching via the Discovery Protocol for example
     //this.defaultReturn = "https://example.org/Shibboleth.sso/DS?SAMLDS=1&target=https://example.org/secure";
     this.defaultReturnIDParam = null;
-    this.helpURL = 'mailto:help@geni.net';
+    this.helpURL = 'https://portal.geni.net/login-help.php';
     this.ie6Hack = null;             // An array of structures to disable when drawing the pull down (needed to 
                                      // handle the ie6 z axis problem
     this.insertAtDiv = 'idpSelect';  // The div where we will insert the data
